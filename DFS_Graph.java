@@ -1,10 +1,10 @@
 import java.util.Queue;
 import java.util.*;
-public class DFSGraph{
+public class DFS_Graph{
     static LinkedList<Integer>[]adj;
     static Stack<Integer> s;
     int D;
-    DFSGraph(int D){
+    DFS_Graph(int D){
         this.D= D;
         adj=new LinkedList[D];
         for(int i=0;i<D;i++){
@@ -39,7 +39,7 @@ public class DFSGraph{
     }
 
     public static void main(String[] args) {
-        DFSGraph g=new DFSGraph(5);
+        DFS_Graph g=new DFS_Graph(5);
         g.Edge(0,1);
         g.Edge(0,2);
         g.Edge(0,4);

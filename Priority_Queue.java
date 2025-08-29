@@ -115,7 +115,7 @@ class PQ12 {
 
 }
 
-public class PriorityQueue1 {
+public class Priority_Queue {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the capacity of the priority queue: ");

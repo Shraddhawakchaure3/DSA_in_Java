@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Dijkstars {
+public class Dijkstras {
     static int n;
     static int MinDistance(int [] Distance,Boolean visit[]) {
         int M = Integer.MAX_VALUE;
@@ -42,7 +42,7 @@ public class Dijkstars {
         printsolution(Distance,n);
     }
     public static void main(String[] args) {
-        Dijkstars D=new Dijkstars();
+        Dijkstras D=new Dijkstras();
         Scanner s=new Scanner(System.in);
         System.out.println("Enter the total number of Edges: ");
         n=s.nextInt();

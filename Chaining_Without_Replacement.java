@@ -41,7 +41,7 @@ class HashTable {
     }
 
 }
-public class ChainingWithoutReplacement {
+public class Chaining_Without_Replacement {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

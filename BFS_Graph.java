@@ -1,9 +1,9 @@
 import java.util.*;
-public class BFSGraph {
+public class BFS_Graph {
     static LinkedList<Integer>[] adj;
     static Queue<Integer> q;
     int V;
-    BFSGraph(int V){
+    BFS_Graph(int V){
         this.V= V;
         adj=new LinkedList[V];
         for(int i=0;i<V;i++){
@@ -33,7 +33,7 @@ public class BFSGraph {
         }
     }
     public static void main(String[] args) {
-        BFSGraph g=new BFSGraph(5);
+        BFS_Graph g=new BFS_Graph(5);
         g.Edge(0,1);
         g.Edge(0,2);
         g.Edge(0,4);
